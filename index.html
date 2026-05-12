@@ -1,646 +1,424 @@
-<html>
-		<head>
-				<title>airtel</title>
-				<style type="text/css">
-		body{
-				background:#f5f5f5;
-			}
-			#mainarea{
-						width:100%;
-						height:10%;
-						background:white;
-						box-shadow:0,4px,6px,-3px(0,0,0,0.1);
-						position:relative;
-						}
-						#mainarea div{
-								width:130px;
-								height:50px;
-								float:left;
-						}
-						#welcomearea{
-							width:10%;
-							background:white;
-							margin-left:125px;
-							text-align:center;
-						}
-						#highlights{
-							width:10%;
-							background:white;
-							text-align:center;
-						}
-						#airzone{
-							width:10%;
-							background:white;
-							text-align:center;
-						}
-						
-						#menuarea{
-							width:100%;
-							height:100px;
-							background:white;
-						}
-						#logoarea{
-								width:6%;
-								height:100px;
-								background:white;
-								float:left;
-						}
-						#logoarea img{
-								width:100%;
-								margin-top:30px;
-								
-								
-						}
-						#titlearea{
-								width:100%;
-								height:100px;
-								background:white;
-								
-						}
-						#titlearea ul{
-								list-style:none;
-								margin:0;
-								padding:30;
-								
-						}
-						#titlearea ul li{
-									float:left;
-									margin-right:20px;
-									padding-left:10;
-									
-						}
-						#titlearea ul li a{
-									color:black;
-									background:white;
-									text-decoretion:none;
-									padding:10px 10px;
-									display:block;
-									text-align:center;
-									
-						}
-						#titlearea ul li a:hover{
-										color:red;
-										background:white;
-						}
-						#titlearea ul li ul{
-											display:none;
-											position:absolute;
-											top:10px;
-											left:0;
-											background:white;
-											padding:10;
-											
-						}
-						#titlearea ul li ul li{
-										float:none;
-										height:150px;
-										
-						}
-						#titlearea ul li:hover ul{
-										display:block;
-						}
-						#slidearea{
-								width:100%;
-								height:370px;
-								background:white;
-						}
-						#schoolarea{
-									width:50%;
-									height:370px;
-									background:white;
-									float:left;
-									text-align:center;
-									padding-top:20px;
-						}
-						#rectanglearea{
-								width:150px;
-								height:50px;
-								background:blue;
-								
-						}
-						#rectanglearea{
-									position-align:center;
-						}
-						#mobilearea{
-									width:50%;
-									height:370px;
-									background:white;
-									float:right;
-									
-						}
-						#mobilearea img{
-								width:100%;
-								height:370px;
-						}
-						#about-section{
-								width:100%;
-								height:400px;
-								background:white;
-								text-align:center;
-								display:flex;
-								justify-content:center;
-								gap:15px;
-						}
-						#hero-section{
-									width:100%;
-									height:500px;
-									background:white;
-									text-align:center;
-						}
-						#manarea{
-									width:200px;
-									height:50px;
-									background:lightblue;
-									float:left;
-									border-radius:50px;
-						}
-						#glassarea{
-									width:200px;
-									height:50px;
-									background:lightblue;
-									float:left;
-									border-radius:50px;
-						}
-						#cararea{
-									width:200px;
-									height:50px;
-									background:lightblue;
-									float:left;
-									border-radius:50px;
-									
-									}
-						#busarea{
-									width:200px;
-									height:50px;
-									background:lightblue;
-									float:left;
-									border-radius:50px;
-									
-									}
-						#cyclearea{
-									width:200px;
-									height:50px;
-									background:lightblue;
-									float:left;
-									border-radius:50px;
-									}
-									#courses-section{
-									width:100%;
-									height:35px;
-									background:pink;
-									text-align:center;
-									}
-									#galery-section{
-										width:100%;
-										height:600px;
-										background:lightgrey;
-										text-align:center;
-										}
-										#galeryarea{
-												width:25%;
-												height:500px;
-												background:white;
-												float:left;
-											}
-											#pinkarea{
-												width:100%;
-												height:250px;
-												background:white;
-											}
-											#pinkarea img{
-													width:100%;
-													height:100%;
-									
-													}
-													#tigerarea{
-									width:25%;
-									height:500px;
-									background:white;
-									float:left;
-									
-							}
-							#yellowarea{
-									width:100%;
-									height:250px;
-									background:white;
-									
-							}
-							#yellowarea img{
-									width:100%;
-									height:100%;
-							}
-						#lionarea{
-								width:25%;
-								height:500px;
-								background:white;
-								float:left;
-								
-								
-						}
-						#greenarea{
-								width:100%;
-								height:250px;
-								background:white;
-								
-						}
-						#greenarea img{
-								width:100%;
-								height:100%;
-						}
-						#elephantarea{
-								width:25%;
-								height:500px;
-								background:white;
-								float:left;
-								border-radius:20px;
-						}
-						#bluearea{
-									width:100%;
-									height:250px;
-									background:white;
-									border-radius:20px;
-						}
-						#bluearea img{
-									width:100%;
-									height:100%;
-						}
-						
-						#rechargearea{
-									width:100%;
-									height:600px;
-									background:white;
-									text-align:center;
-									
-						}
-						#fiberarea{
-									width:30%;
-									height:400px;
-									background:yellow;
-									float:left;
-						}
-						#postpaidarea{
-									width:30%;
-									height:400px;
-									background:pink;
-									float:left;
-						}
-						#prepaidarea{
-										width:30%;
-										height:400px;
-										background:blue;
-										float:left;
-						}
-						#contact-section{
-									width:100%;
-									height:300px;
-									background:white;
-									text-align:center;
-						}
-						#higharea{
-								width:15%;
-								height:150px;
-								background:pink;
-								float:left;
-								
-						}
-						#lowarea{
-								width:15%;
-								height:150px;
-								background:yellow;
-								float:left;
-								
-						}
-						#speedarea{
-									width:15%;
-									height:150px;
-									background:lightblue;
-									float:left;
-									
-						}
-						#simarea{
-								width:15%;
-								height:150px;
-								background:red;
-								float:left;
-								
-						}
-						#footerarea{
-									width:100%;
-									height:500px;
-									background:white;
-						}
-						#support-section{
-									width:25%;
-									height:500px;
-									background:white;
-									float:left;
-									text-align:center;
-						}
-						#support-section ul{
-									list-style:none;
-									margin:10;
-									padding:10;
-						}
-						#user-section{
-									width:25%;
-									height:500px;
-									background:white;
-									float:left;
-									text-align:center;
-						}
-						#user-section ul{
-									list-style:none;
-									margin:10;
-									padding:10;
-						}
-						#payment-section{
-									width:25%;
-									height:500px;
-									background:white;
-									float:left;
-									text-align:center;
-						}
-						#payment-section ul{
-										list-style:none;
-										margin:10;
-										padding:10;
-						}
-						#technical-section{
-									width:25%;
-									height:500px;
-									background:white;
-									float:left;
-									text-align:center;
-									
-						}
-						#technical-section ul{
-										list-style:none;
-										margin:10;
-										padding:10;
-						}
-						.section{
-								box-shadow:0 4px 6px -3px rgba(0,0,0,0.15);
-								margin-bottom:10px;
-								background:white;
-						}
-		
+<!DOCTYPE html>
+<html lang="en">
 
-		</style>
-				<link rel="stylesheet"  type="text/css" href="aos.css"/>
-		</head>
-		<body>
-				<div id="mainarea" class="section">
-				<div id="welcomearea">
-						<h4>INDIVISUAL</h4>
-				</div>
-				<div id="highlights">
-						<h4>BUSINESS</h4>
-				</div>
-				<div id="airzone">
-						<h4>INVESTER</h4>
-				</div>
-				</div>
-				<div id="menuarea" class="section">
-				<div id="logoarea">
-						<img src="airtellogo.png">
-				</div>
-				<div id="titlearea">
-							<ul>
-								<li><a href="#">WIFI</a>
-										<ul>
-												<li><a href="#">PAY BILL/RECHARGE </a></li>
-												<li><a href="#">BUY NEW CONNECTION</a></li>
-												<li><a href="#">VIEW PLANS</a></li>
-										</ul>
-								</li>
-								<li><a href="#">POSTPAID</a>
-											<ul>
-												<li><a href="#">PAY BILL/RECHARGE </a></li>
-												<li><a href="#">BUY NEW CONNECTION</a></li>
-												<li><a href="#">VIEW PLANS</a></li>
-										</ul>
-								</li>
-								<li><a href="#">PREPAID</a>
-											<ul>
-												<li><a href="#">PAY BILL/RECHARGE </a></li>
-												<li><a href="#">BUY NEW CONNECTION</a></li>
-												<li><a href="#">VIEW PLANS</a></li>
-										</ul>
-								</li>
-								<li><a href="#">DTH</a>
-											<ul>
-												<li><a href="#">PAY BILL/RECHARGE </a></li>
-												<li><a href="#">BUY NEW CONNECTION</a></li>
-												<li><a href="#">VIEW PLANS</a></li>
-										</ul>
-								</li>
-								<li><a href="#">AIRTEL BANK</a>
-										<ul>
-												<li><a href="#">PAY BILL/RECHARGE </a></li>
-												<li><a href="#">BUY NEW CONNECTION</a></li>
-												<li><a href="#">VIEW PLANS</a></li>
-										</ul>
-								</li>
-								<li><a href="#">BANK</a>
-										<ul>
-												<li><a href="#">PAY BILL/RECHARGE </a></li>
-												<li><a href="#">BUY NEW CONNECTION</a></li>
-												<li><a href="#">VIEW PLANS</a></li>
-										</ul>
-								</li>
-								<li><a href="#">FINANCE</a>
-										<ul>
-												<li><a href="#">PAY BILL/RECHARGE </a></li>
-												<li><a href="#">BUY NEW CONNECTION</a></li>
-												<li><a href="#">VIEW PLANS</a></li>
-										</ul>
-								</li>
-								<li><a href="#">HELP</a>
-											<ul>
-												<li><a href="#">PAY BILL/RECHARGE </a></li>
-												<li><a href="#">BUY NEW CONNECTION</a></li>
-												<li><a href="#">VIEW PLANS</a></li>
-										</ul>
-								</li>
-								<li><a href="#">COVERAGE MAP</a></li>
-								<li><a href="#">SERVICE QUALITY</a></li>
-								<li><a href="#"><i class="fa fa-user"></i>ACCOUNT</a></li>
-							</ul>
-								
-				</div>
-				</div>
-				<div id="slidearea" class="section">
-				<div id="schoolarea">
-						<h1> TURN YOUR IDEAS INTO  DESIGN</h1>
-						<h4>Adobe Express Premium worth ~₹4000, FREE for all Airtel users, for 12 months.</h4>
-				<div id="rectanglearea">
-				</div>
-				</div>
-				<div id="mobilearea">
-						<img src="airtel.jpg"/>
-				</div>
-				</div>
-				<div id="about-section" class="section">
-							<h1>By a new connection</h1>
-				</div>
-				<div id="hero-section" class="section">
-							<h1>Recharge or pay bills</h1>
-					<div id="manarea">
-							PREPAID
-					</div>
-					<div id="glassarea">
-							POSTPAID
-					</div>
-					<div id="cararea">
-							DTH
-					</div>
-					<div id="busarea">
-							WI-FI
-					</div>
-					<div id="cyclearea">
-							AIRTEL BLACK
-					</div>
-				</div>
-				<div id="courses-section">
-						<h2>Free 2GB  data coupon select recharges via thanks app</h2>
-				</div>
-				<div id="galery-section" class="section">
-							<h1>Recommended for you</h1>
-					<div id="galeryarea" data-aos="flip-right">
-							<div id="pinkarea">
-									<img src="https://assets.airtel.in/static-assets/home-recast/images/recommendations-slide-1.png"/>
-							</div>
-							<h3>FIBER</h3>
-							<h4>enjoy unlimited wi-fi at 549</h4>
-							<h6>up to 100 Mbps speed,unlimited calls & ottapps</h6>
-					</div>
-					<div id="tigerarea">
-								<div id="yellowarea" data-aos="flip-right">
-										<img src="https://assets.airtel.in/static-assets/home-recast/images/recommendations-slide-2.png"/>
-								</div>
-								<h3>POSTPAID</h3>
-							<h4>Get a superior network at just 549</h4>
-							<h6>75 gb data with no daily limit & top ott apps</h6>
-					</div>
-					<div id="lionarea">
-							<div id="greenarea">
-										<img src="https://assets.airtel.in/static-assets/home-recast/images/recommendations-slide-3.png"/>
-							</div>
-								<h3>PREPAID</h3>
-							<h4>enjoy high speed, seamless network</h4>
-							<h6>Home delivery of sim&Quick activation</h6>
-					</div>
-					<div id="elephantarea">
-							<div id="bluearea">
-										<img src="https://assets.airtel.in/static-assets/home-recast/images/recommendations-slide-4.png"/>
-							</div>
-								<h3>OPEN BANK ACCOUNT</h3>
-							<h4>Earn up to 6.5% interest on your savpng.</h4>
-							<h6>with airtel payment bank</h6>
-					</div>
-				</div>
-				<div id="rechargearea" class="section">
-							<h1>Find the best Wi-fi plan for you</h1>
-							<div id="fiberarea">
-							</div>
-							<div id="postpaidarea">
-							</div>
-							<div id="prepaidarea">
-							</div>
-				</div>
-				<div id="contact-section" class="section">
-							<h1>For your business</h1>
-							<div id="higharea">
-							</div>
-							<div id="lowarea">
-							</div>
-							<div id="speedarea">
-							</div>
-							<div id="simarea">
-							</div>
-				</div>
-				<div id="footerarea" class="section">
-				<div id="support-section">
-								<h5>QUICK ACCESS</h5>
-								<ul>
-									<li>Airtel app</li>
-									<li>WI-FI PAYMENT</li>
-									<li>PREPAID RECHARGE</li>
-									<li>POSTPAID BILL PAYMENT</li>
-									<li>DTH RECHARGS</li>
-									<li>AIRTEL BLACK BILL PAYMENT</li>
-									<li>PERSONAL LOANS</li>
-									<li>AIRTEL PAYMENTS BANK</li>
-									<li>EXCITING OFFER</li>
-									<li>FREE SIM DELIVERY</li>
-									<li>TELECOM TARIFF</li>
-									<li>RIGHTS ISSUE</li>
-									<li>QIP&FCCB ISSUE</li>
-									<li>TERMS/CONDITIONS</li>
-									<li>AIRTEL FINANCE TERMS AND CONDITIONS</li>
-									<li>AIRTEL FINANCE PRIVACY POLICY</li>
-									<li>AIRTEL BLOGS</li>
-								</ul>
-				</div>
-				<div id="user-section">
-								<h5>HELP AT HAND</h5>
-								<ul>
-									<li>FIND A STORE</li>
-									<li>CHECK COVERAGE</li>
-									<li>SERVICE QUALITY</li>
-									<li>GRIEVANCE REDRESSAL</li>
-									<li>OWNERSHIP TRANSFER</li>
-									<li>MANAGE YOUR ACCOUNT</li>
-									<li>ISP NEAR ME</li>
-									<li>WI-FI FAQS</li>
-									<li>DTH FAQS</li>
-									<li>POSTPAID FAQS</li>
-									<li>AIRTEL XSTREAM FAQS</li>
-									<li>DTH CONSUMER CORNER</li>
-									<li>IPTV CONSUMER CORNER</li>
-									<li>DO NOT DISTURB</li>
-									<li>HELP VIDEOS</li>
-									<li>CONTACT US</li>
-								</ul>
-				</div>
-				<div id="payment-section">
-								<h5>ABOUT AIRTEL</h5>
-								<ul>
-									<li>BRAND</li>
-									<li>PRIVACY CENTER</li>
-									<li>CAREER</li>
-									<li>AIRTEL ALUMI</li>
-									<li>PARTNER</li>
-									<li>BUSINESS</li>
-									<li>ABOUT AIRTEL</li>
-									<li>PRESS RELEASE</li>
-									<li>INVESTER</li>
-									<li>INVESTER SUPPORT</li>
-									<li>TELECOM CHARTER</li>
-								</ul>
-				</div>
-				<div id="technical-section">
-								<h5>NEW CONNECTIONS</h5>
-								<ul>
-									<li>BUY BRANDED NEW CONNECTION</li>
-									<li>BUY POSTPAID NEW CONNECTION</li>
-									<li>BUY PREPAID NEW CONNECTION</li>
-									<li>BUY AIRTEL BLACK PLAN</li>
-									<li>BUY XSTREAM BOX</li>
-									<li>BUY DTH NEW CONNECTION</li>
-									<li>SWITCH TO AIRTEL</li>
-									<li>INTERNATIONAL ROAMING</li>
-								<ul>
-				</div>
-			</div>
-				<script src="aos.js"></script>
-		
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>airtelclone</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
-		<script>
-			AOS.init({
-				easing: 'ease-out-back',
-				duration: 1000
-			});
-		</script>
-		</body>
+</head>
+
+<body>
+    <header class="toparea">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <ul>
+                        <li><a href="#">INDIVISUAL</a></li>
+                        <li><a href="#">BUSINESS</a></li>
+                        <li><a href="#">INVESTOR</a></li>
+                    </ul>
+                </div>
+                <div class="col"></div>
+            </div>
+        </div>
+    </header>
+    <section class="logoarea">
+        <div class="container">
+            <div class="row align-items-center">
+
+            
+                <div class="col-md-2 col-4">
+                    <img src="logo.png" class="img-fluid">
+                </div>
+
+                
+                <div class="col-md-10 col-8">
+                    <div class="menu-bar d-flex justify-content-end">
+
+                        <div class="menu-item">Wi-Fi ▼
+                            <div class="dropdown-box">
+                                <a href="#">New Connection</a>
+                                <a href="#">Plans</a>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">Postpaid ▼
+                            <div class="dropdown-box">
+                                <a href="#">Buy SIM</a>
+                                <a href="#">Bill Pay</a>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">Prepaid ▼
+                            <div class="dropdown-box">
+                                <a href="#">Recharge</a>
+                                <a href="#">Offers</a>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">DTH ▼</div>
+                        <div class="menu-item">Bank ▼</div>
+                        <div class="menu-item">Help ▼</div>
+
+                        <div class="menu-item">Coverage</div>
+                        <div class="menu-item text-danger fw-bold">👤 Account</div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col"></div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row"></div>
+            <div class="row"></div>
+            <div class="row"></div>
+        </div>
+    </section>
+    <section class="buyarea">
+        <div class="container">
+            <div class="row">
+                <h2>Buy a new connection</h2>
+            </div>
+            <div class="row">
+                <div class="col"></div>
+                <div class="col">
+                    <div class="buybox">
+                        <img src="prepaid.png">
+                        <h6>dfdgf</h6>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="buybox">
+                        <img src="dth.png">
+                        <h6>dfdgf</h6>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="buybox">
+                        <img src="iptv.png">
+                        <h6>dfdgf</h6>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="buybox">
+                        <img src="openbankaccount.png">
+                        <h6>dfdgf</h6>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="buybox">
+                        <img src="postpaid.png">
+                        <h6>dfdgf</h6>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="buybox">
+                        <img src="refer.png">
+                        <h6>dfdgf</h6>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="buybox">
+                        <img src="financial.png">
+                        <h6>dfdgf</h6>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="buybox">
+                        <img src="airtelblack.png">
+                        <h6>dfdgf</h6>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="prepaidarea">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2>Recharge or pay bills</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="prearea">
+                        <ul>
+                            <li>prepaid</li>
+                            <li>postpaid</li>
+                            <li>dth</li>
+                            <li>wi-fi</li>
+                            <li>airtel black</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h4>ENTER MOBILE NUMBER</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="freearea">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h6>Free 2 GB data coupons on select recharges via Thanks app</h6>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="recomendedarea">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2>Recomended for you</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="rbox">
+                        <img src="https://assets.airtel.in/static-assets/home-recast/images/recommendations-slide-1.png"
+                            alt="">
+                        <h6>FIBER</h6>
+                        <h3>Enjoy unlimited wi-fi at ₹999</h3>
+                        <p>Up to 100 Mbps speed, unlimited calls & OTT apps</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="rbox">
+                        <img src="https://assets.airtel.in/static-assets/home-recast/images/recommendations-slide-2.png"
+                            alt="">
+                        <h6>POSTPAID</h6>
+                        <h3>Get a superior network at just ₹549</h3>
+                        <p>75 GB data with no daily limit & top OTT apps</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="rbox">
+                        <img src="https://assets.airtel.in/static-assets/home-recast/images/recommendations-slide-3.png"
+                            alt="">
+                        <h6>PREPAID</h6>
+                        <h3>Enjoy high-speed, seamless network</h3>
+                        <p>Home delivery of SIM & Quick activation</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="rbox">
+                        <img src="https://assets.airtel.in/static-assets/home-recast/images/recommendations-slide-4.png"
+                            alt="">
+                        <h6>Open Bank Account</h6>
+                        <h3>Earn up to 6.5% Interest on your savings</h3>
+                        <p>with Airtel Payments Bank</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row"></div>
+        </div>
+    </section>
+    <section class="bestarea">
+        <div class="container">
+            <div class="row">
+                <h2>Find the best Wi-Fi plan for you</h2>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="sbox">
+                        <h5>STEP 1 OF 2</h5>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="sbox">
+                        <h4>STEP 2 OF 2</h4>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="sbox">
+                        <img src="https://assets.airtel.in/static-assets/home-recast/images/wifi.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="forarea">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2>For your business</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h5>Solutions for medium to large scale enterprises</h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h6>Explore airtel business</h6>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="pbox">
+                        <img src="https://assets.airtel.in/static-assets/misc/img/b2b-airtel-office-internet.svg">
+                        <h4>AIRTEL OFFICE INTERNET</h4>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="pbox">
+                        <img src="https://assets.airtel.in/static-assets/misc/img/b2b-mobile.svg">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="pbox">
+                        <img src="https://assets.airtel.in/static-assets/misc/img/b2b-airtel-iq.svg">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="pbox">
+                        <img src="https://assets.airtel.in/static-assets/misc/img/b2b-airtel-dedicated-internet.svg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="quickarea">
+                        <h4>QUICK ACCESS</h4>
+                        <ul>
+                            <li><a href="#">Airtel app</a></li>
+                            <li><a href="#">Wi-fi payment</a></li>
+                            <li><a href="#">Prepaid recharge</a></li>
+                            <li><a href="#">Postpaid bill</a></li>
+                            <li><a href="#">Postpaid bill payment</a></li>
+                            <li><a href="#">DTH Recharge</a></li>
+                            <li><a href="#">Airtel Black Bill Payment</a></li>
+                            <li><a href="#">Personal Loans</a></li>
+                            <li><a href="#">Airtel Payment Bank</a></li>
+                            <li><a href="#">Exciting offer</a></li>
+                            <li><a href="#">Free Sim Delivery</a></li>
+                            <li><a href="#">Telecon traffic</a></li>
+                            <li><a href="#">Rights issue</a></li>
+                            <li><a href="#">QIP & FCCB issue</a></li>
+                            <li><a href="#">Terms/Condition</a></li>
+                            <li><a href="#">Airtel Finance privency</a></li>
+                            <li><a href="#">Airtel Blog</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="helparea">
+                        <h4>HELP AT HAND</h4>
+                        <ul>
+                            <li><a href="#">Find a store</a></li>
+                            <li><a href="#">Chack coverage</a></li>
+                            <li><a href="#">Service quality</a></li>
+                            <li><a href="#">Grievance redressal</a></li>
+                            <li><a href="#">Ownership Transfer</a></li>
+                            <li><a href="#">Mannage your account</a></li>
+                            <li><a href="#">ISP Near me</a></li>
+                            <li><a href="#">Wi-fi FAQS</a></li>
+                            <li><a href="#">DTH FAQS</a></li>
+                            <li><a href="#">Postpaid FAQS</a></li>
+                            <li><a href="#">Airtel xstream FAQS</a></li>
+                            <li><a href="#">DTH consumercorner</a></li>
+                            <li><a href="#">IPTV consumercorner</a></li>
+                            <li><a href="#">Do not disturb</a></li>
+                            <li><a href="#">HELP videos</a></li>
+                            <li><a href="#">Contact us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="aboutarea">
+                        <h4>ABOUT AIRTEL</h4>
+                        <ul>
+                            <li><a href="#">brand</a></li>
+                            <li><a href="#">privacy center</a></li>
+                            <li><a href="#">career</a></li>
+                            <li><a href="#">airtel alumi</a></li>
+                            <li><a href="#">partner</a></li>
+                            <li><a href="#">business</a></li>
+                            <li><a href="#">about airtel</a></li>
+                            <li><a href="#">press release</a></li>
+                            <li><a href="#">invester</a></li>
+                            <li><a href="#">investor support</a></li>
+                            <li><a href="#">telecom charecter</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="newarea">
+                        <h4>NEW CONNECTIONS</h4>
+                        <ul>
+                            <li><a href="#">buy brandband new connection</a></li>
+                            <li><a href="#">buy postpaid new connection</a></li>
+                            <li><a href="#">buy prepaid new connection</a></li>
+                            <li><a href="#">buy airtel black plan</a></li>
+                            <li><a href="#">buy xstrem box</a></li>
+                            <li><a href="#">buy dth new connection</a></li>
+                            <li><a href="#">switch to airtel</a></li>
+                            <li><a href="#">international roaming</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <footer>
+            <div class="container">
+                <div class="row"></div>
+                <div class="row"></div>
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"></script>
+        <script>
+            const myCarouselElement = document.querySelector('#carouselExampleCaptions')
+
+            const carousel = new bootstrap.Carousel(myCarouselElement, {
+                interval: 2000,
+                touch: false
+            })
+        </script>
+
+</body>
+
 </html>

@@ -1,0 +1,301 @@
+body {
+    background: #FFF;
+}
+
+.toparea {
+    background: #FFFFFF;
+    padding: 0;
+}
+
+.toparea ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.toparea ul li {
+    float: left;
+}
+
+.toparea ul li a:link,
+.toparea ul li a:visited {
+    text-transform: uppercase;
+    padding: 5px 0;
+    border-top: solid 5px transparent;
+    text-decoration: none;
+    margin: 0 5px;
+    color: black;
+}
+
+.toparea ul li:first-child a:link,
+.toparea ul li:first-child a:visited {
+    border-top: solid 5px #D40000;
+}
+
+.toparea ul li a:hover {
+    border-top: solid 5px #D40000;
+    color: #D40000;
+}
+
+.prepaid area {
+    background: #FFFFFF;
+
+}
+
+.prepaidarea h2 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.prearea ul li {
+    list-style: none;
+    text-align: center;
+    padding-left: 20px;
+    float: left;
+}
+
+.freearea {
+    width: 100%;
+    background: #F9D8CF;
+}
+
+.freearea h6 {
+    color: #000103;
+    text-align: center;
+}
+
+.recomendedarea {
+    background: #F7F7FA;
+    padding: 100px 0;
+}
+
+.recomendedarea h2 {
+    text-align: center;
+}
+
+.rbox {
+    width: 100%;
+    background: #FFF;
+    border: solid 1px black;
+    border-radius: 10px;
+    margin: 20px
+}
+
+.rbox img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.rbox h6 {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.rbox p {
+    margin: 0 20px;
+}
+
+.rbox h3 {
+    margin: 0 20px;
+}
+
+.bestarea {
+    padding: 100px 0;
+    background: #000103;
+}
+
+.bestarea {
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 0;
+}
+
+.sbox {
+    width: 100%;
+    background: #F4F5FF;
+    border: solid 1px black;
+    border-radius: 10px;
+    text-align: center;
+    color: black;
+}
+
+.sbox h5 {
+    text-align: center;
+    color: black;
+}
+
+
+.forarea {
+    background: #F7F7FA;
+    padding: 100px 0;
+}
+
+.forarea h2 {
+    margin-left: 120px;
+}
+
+.forarea h5 {
+    margin-left: 120px;
+}
+
+.forarea h6 {
+    margin-left: 120px;
+}
+
+.pbox {
+    width: 100%;
+    background: #FFFFFF;
+    border: solid 1px black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.quickarea {
+    padding-top: 100px 0;
+}
+
+.quickarea ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.quickarea ul li {
+    margin-left: 20px;
+}
+
+.quickarea ul li a:link,
+.quickarea ul li a:visited {
+    margin: 0;
+    color: black;
+}
+
+.quickarea ul li a:hover {
+    color: #D40000;
+}
+
+.helparea {
+    padding-top: 10px;
+}
+
+.helparea ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.helparea ul li {
+    margin-left: 20px;
+}
+
+.helparea ul li a:link,
+.helparea ul li a:visited {
+    margin: 0;
+    color: #000103;
+}
+
+.helparea ul li a:hover {
+    color: #D40000;
+}
+
+.aboutarea {
+    padding-top: 100px 0;
+}
+
+.aboutarea ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.aboutarea ul li {
+    margin-left: 20px;
+}
+
+.newarea {
+    padding-top: 100px 0;
+}
+
+.newarea ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.newarea ul li {
+    margin-left: 20px;
+}
+
+.buyarea {
+    background: #F7F7FA;
+    text-align: center;
+    padding: 70px 0;
+}
+
+.buybox {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.buybox img {
+    width: 75px;
+    border-radius: 50%;
+    float: left;
+
+}
+
+.buybox:hover img {
+    border: solid 1px black;
+}
+
+.buybox h4 {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.logoarea {
+    background: white;
+}
+
+.logoarea img {
+    width: 100%;
+}
+
+.menu-bar {
+    gap: 20px;
+}
+
+.menu-item {
+    position: relative;
+    cursor: pointer;
+    font-size: 14px;
+    padding:30px;
+}
+
+.dropdown-box {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    width: 160px;
+    display: none;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.dropdown-box a {
+    display: block;
+    padding: 6px;
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown-box a:hover {
+    background: #eee;
+    color: red;
+}
+
+.menu-item:hover .dropdown-box {
+    display: block;
+}
