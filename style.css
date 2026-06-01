@@ -152,6 +152,7 @@ body {
 
 .quickarea {
     padding-top: 100px 0;
+    text-decoration: none;
 }
 
 .quickarea ul {
@@ -169,6 +170,9 @@ body {
     margin: 0;
     color: black;
 }
+a{
+    text-decoration: none;
+}
 
 .quickarea ul li a:hover {
     color: #D40000;
@@ -176,6 +180,7 @@ body {
 
 .helparea {
     padding-top: 10px;
+    text-decoration: none;
 }
 
 .helparea ul {
@@ -298,4 +303,19 @@ body {
 
 .menu-item:hover .dropdown-box {
     display: block;
+}
+.quickarea ul li a,
+.helparea ul li a,
+.aboutarea ul li a,
+.newarea ul li a{
+    text-decoration: none !important;
+    color: #000;
+}
+
+.quickarea ul li a:hover,
+.helparea ul li a:hover,
+.aboutarea ul li a:hover,
+.newarea ul li a:hover{
+    text-decoration: none !important;
+    color: #D40000;
 }
